@@ -1,0 +1,33 @@
+/* Start header */
+/* Start first */
+header .navbar nav::after {
+  transform: translateX(50%);
+}
+/* End first */
+/* End header */
+
+/* Start main */
+/* Start social */
+.social .container section span {
+  direction: ltr;
+}
+/* End social */
+
+/* Start plans features */
+.plans-features-container .plan-features:nth-of-type(3)::before {
+  content: "شائع";
+}
+.plan-features h3::after {
+  transform: translateX(50%);
+}
+/* End plans features */
+/* Start contact */
+.contact .container form label input[type=email] {
+  direction: ltr;
+}
+.contact .container form label input[type=email]::placeholder {
+  direction: rtl;
+  text-align: end;
+}
+/* End contact */
+/* End main */
